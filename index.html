@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://use.fontawesome.com/cf729497d2.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Template Design</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">The Town</a>
+        <div class="topnav-right">
+            <a href="#Information">Information</a>
+            <a href="#Work">Our Work</a>
+            <a href="#Contact">Contact us</a>
+        </div>
+        <h1>The Town</h1>
+        <h3>Parallex Bootstrap theme</h3>
+        <button class="button-four"><i class="fas fa-plus"></i></button>
+    </div>
+
+    <!-- Second Section -->
+
+    <div class="row">
+        <div class="column">
+            <img src="download.jpeg">
+        </div>
+        <div class="column">
+            <h2 class="intro">Introduction</h2>
+            <p class="text">Lorem ipsum dolor, <b>amet consectetur adipisicing</b> elit. Facilis, accusamus voluptatem
+                explicabo cumque facere eaque repellat debitis natus tenetur magni!</p>
+            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, soluta? Asperiores quibusdam
+                sint amet iure ut incidunt delectus in minus.</p>
+            <button class="read">Read More</button>
+        </div>
+    </div>
+
+    <!-- Third Section  -->
+
+    <div class="rowtwo">
+        <div class="columnthirdsec">
+            <i class="fa fa-bus fa-3x" aria-hidden="true"></i>
+            <p class="heading">Lorem ipsum dolor sit amet.</p>
+            <p class="paragrapgh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores excepturi facere
+                beatae natus amet possimus voluptates deserunt earum. Deleniti?</p>
+        </div>
+        <div class="columnthirdsec">
+            <i class="fa fa-motorcycle fa-3x" aria-hidden="true"></i>
+            <p class="heading">Lorem ipsum dolor sit amet.</p>
+            <p class="paragrapgh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores excepturi facere
+                beatae natus amet possimus voluptates deserunt earum. Deleniti?</p>
+        </div>
+        <div class="columnthirdsec">
+            <i class="fa fa-building fa-3x" aria-hidden="true"></i>
+            <p class="heading">Lorem ipsum dolor sit amet.</p>
+            <p class="paragrapgh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores excepturi facere
+                beatae natus amet possimus voluptates deserunt earum. Deleniti?</p>
+        </div>
+    </div>
+
+
+    <!-- Fourth Section  -->
+
+    <div class="rowfour">
+        <h2 class="workdetail">Our Work</h2>
+        <p class="workinfo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, sit ab similique iste
+            repudiandae perspiciatis consequuntur amet incidunt perferendis reiciendis?</p>
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="images (1).jpeg">
+                </div>
+                <div class="item">
+                    <img src="images.jpeg">
+                </div>
+                <div class="item">
+                    <img src="action-backlit-beach-1046896-1200x450_c.jpg">
+                </div>
+               
+            </div>       
+    </div>
+
+
+    <!-- Fifth Section  -->
+
+    <div class="fifthSection">
+        <h2 class="Contact">Contact US</h2>
+
+        <p class="fifthInfo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum repudiandae amet autem iure
+            dolore ullam? Mollitia eaque maiores labore nisi?</p>
+        
+        <!-- First Row -->
+
+        <div class="row">
+            <div class="column" >
+                <i class="fa fa-phone fa-3x" aria-hidden="true"></i>
+                <p class="phoneno">111-222-333-444</p>
+            </div>
+            <div class="column" >
+                <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                <p class="email">cloudtek@gmail.com</p>
+            </div>
+        </div>
+
+         <!-- Second Row -->
+
+         <div class="row">
+            <div class="column" >
+                <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+                <p class="phoneno">Location on Map</p>
+            </div>
+             <div class="column" >
+                <input type="text" class="submit" value="Subscribe your email">
+                <input type="submit" class="Submitbtn">
+            </div>
+          </div>
+        <p class="CopyRight">
+            Copyright @ Company Name - Design Template 
+        </p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+    </script>
+</body>
+
+</html>

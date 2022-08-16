@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+  font-size: 10px;
+} */
+.topnav {
+    overflow: hidden;
+    background-image: url("cover.jpg");
+    background-size: 100% 100%;
+    height: 350px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 60px;
+  } 
+  .topnav-right {
+    float: right;
+    margin-right: 50px;
+
+  }
+h1{
+    text-align: center;
+    padding-top: 15%;
+    color:#f2f2f2;
+}
+h3{
+    text-align: center;
+    padding-right: 15%;
+    color:#f2f2f2;
+    margin-right: -200px;
+}
+
+.button-four {
+    background-color: #547aa5;
+    border-radius: 15px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    margin-left: 48%;
+    margin-top: 10px;
+
+  }
+ 
+ .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  } 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  img{
+    height: 200px;
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+
+
+  .intro{
+    color: #547aa5;
+    padding-top: 5px;
+    padding-right:75%;
+  }
+
+  .text{
+    margin: 20px;
+  }
+
+  .read{
+    margin-left: 5%;
+    padding: 10px;
+    border-radius: 12px;
+    color:white;
+    background-color: #547aa5;
+  }
+
+  .columnthirdsec {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    
+  }
+  
+  .rowtwo:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.rowtwo{
+    margin: 40px;
+}
+
+columnthirdsec,p{
+    margin-top: 10%;
+}
+
+.fa-bus:before {
+    margin-left: 50px;
+    color:#547aa5;
+}
+
+.fa-motorcycle:before {
+    color:#547aa5;
+    margin-left: 50px;
+}
+
+.fa-building:before {
+    color:#547aa5;
+    margin-left: 50px;
+}
+
+.heading{
+    color: #547aa5;
+}
+
+.workdetail{
+    text-align: center;
+    margin-top: 5px;
+    color: blue;
+    font-size: 35px;
+}
+
+.workinfo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.fifthSection{
+    background-image: url(jumbotron.jpg);
+    overflow: hidden;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.Contact{
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.fifthInfo{
+    color:white;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .fa-phone:before{
+      color:#f2f2f2;
+      margin-left: 200px;
+  }
+
+  .fa-envelope:before{
+    color:#f2f2f2;
+  }
+
+  .phoneno{
+    color:#f2f2f2;
+    margin-left: 270px;
+    margin-top: -30px;
+  }
+
+  .email{
+    color:#f2f2f2;
+    margin-left: 120px;
+    margin-top: -30px;
+  }
+
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .fa-map-marker:before{
+    margin-left: 200px;
+    color:#f2f2f2;
+  }
+
+  
+  .submit{
+    margin-top: 30px;
+  }
+
+  .Submitbtn{
+    margin-left: 100px;
+    margin-bottom: 150px;
+    padding:10px;
+    border-radius: 20%;
+  }
+
+
+  .CopyRight{
+    color:#f2f2f2;
+    text-align: center;
+    
+  }

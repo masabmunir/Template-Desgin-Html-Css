@@ -4,57 +4,59 @@
     box-sizing: border-box;
 }
 
-/* html{
-  font-size: 10px;
-} */
+html{
+  font-size: 62.5%;
+}
+
 .topnav {
     overflow: hidden;
     background-image: url("cover.jpg");
     background-size: 100% 100%;
-    height: 350px;
+    height: 35rem;
   }
   
   .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 16px;
+    padding: 1.6rem;
     text-decoration: none;
-    font-size: 23px;
-    margin-left: 60px;
+    font-size: 3rem;
+    margin-left: 6rem;
   } 
   .topnav-right {
     float: right;
-    margin-right: 50px;
+    margin-right: 5rem;
 
   }
 h1{
     text-align: center;
     padding-top: 15%;
     color:#f2f2f2;
+    font-size: 4rem;
 }
 h3{
     text-align: center;
     padding-right: 15%;
     color:#f2f2f2;
-    margin-right: -200px;
+    margin-right: -20rem;
 }
 
 .button-four {
     background-color: #547aa5;
     border-radius: 15px;
-    height: 40px;
-    width: 40px;
+    height: 4rem;
+    width: 4rem;
     align-items: center;
     margin-left: 48%;
-    margin-top: 10px;
+    margin-top: 1rem;
 
   }
  
  .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 1rem;
   } 
   .row:after {
     content: "";
@@ -63,27 +65,29 @@ h3{
   }
 
   img{
-    height: 200px;
+    height: 20rem;
     width: 50%;
-    margin-left: 80px;
-    margin-top: 20px;
+    margin-left: 8rem;
+    margin-top: 2rem;
   }
 
 
   .intro{
     color: #547aa5;
-    padding-top: 5px;
+    padding-top: 0.5rem;
     padding-right:75%;
+    font-size: 4rem;
   }
 
   .text{
-    margin: 20px;
+    margin: 2rem;
+    font-size: 1.5rem;
   }
 
   .read{
     margin-left: 5%;
-    padding: 10px;
-    border-radius: 12px;
+    padding: 1rem;
+    border-radius: 1.2rem;
     color:white;
     background-color: #547aa5;
   }
@@ -91,7 +95,7 @@ h3{
   .columnthirdsec {
     float: left;
     width: 33.33%;
-    padding: 10px;
+    padding: 1rem;
     
   }
   
@@ -102,42 +106,44 @@ h3{
   }
 
 .rowtwo{
-    margin: 40px;
+    margin: 4rem;
 }
 
 columnthirdsec,p{
     margin-top: 10%;
+    font-size: 2rem;
 }
 
 .fa-bus:before {
-    margin-left: 50px;
+    margin-left: 5rem;
     color:#547aa5;
 }
 
 .fa-motorcycle:before {
     color:#547aa5;
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 
 .fa-building:before {
     color:#547aa5;
-    margin-left: 50px;
+    margin-left: 5rem;
 }
 
 .heading{
     color: #547aa5;
+    font-size: 2rem;
 }
 
 .workdetail{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0.5rem;
     color: blue;
     font-size: 35px;
 }
 
 .workinfo{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 
@@ -145,29 +151,29 @@ columnthirdsec,p{
     background-image: url(jumbotron.jpg);
     overflow: hidden;
     background-size: 100% 100%;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
 }
 
 .Contact{
     color: white;
-    font-size: 20px;
-    margin-top: 25px;
-    margin-left: 200px;
+    font-size: 4rem;
+    margin-top: 2.5rem;
+    margin-left: 20rem;
 }
 
 .fifthInfo{
     color:white;
-    margin-top: 20px;
+    margin-top: 2rem;
     text-align: center;
-    margin-left: -30px;
+    margin-left: -3rem;
 }
 
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
-    
+    padding: 1rem;
+    margin-top: 4rem;
   }
   
   .row:after {
@@ -179,7 +185,7 @@ columnthirdsec,p{
 
   .fa-phone:before{
       color:#f2f2f2;
-      margin-left: 200px;
+      margin-left: 20rem;
   }
 
   .fa-envelope:before{
@@ -188,21 +194,21 @@ columnthirdsec,p{
 
   .phoneno{
     color:#f2f2f2;
-    margin-left: 270px;
-    margin-top: -30px;
+    margin-left: 27rem;
+    margin-top: -3rem;
   }
 
   .email{
     color:#f2f2f2;
-    margin-left: 120px;
-    margin-top: -30px;
+    margin-left: 12rem;
+    margin-top: -3rem;
   }
 
 
   .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 1rem;
     
   }
   
@@ -214,19 +220,20 @@ columnthirdsec,p{
 
 
   .fa-map-marker:before{
-    margin-left: 200px;
+    margin-left: 20rem;
     color:#f2f2f2;
   }
 
   
   .submit{
-    margin-top: 30px;
+    /* margin-top: 3rem; */
+    padding: 1rem;
   }
 
   .Submitbtn{
-    margin-left: 100px;
-    margin-bottom: 150px;
-    padding:10px;
+    margin-left: 10rem;
+    margin-bottom: 15rem;
+    padding:1rem;
     border-radius: 20%;
   }
 
@@ -236,3 +243,29 @@ columnthirdsec,p{
     text-align: center;
     
   }
+
+  @media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+  }
+
+  @media(max-width:768px){
+    html{
+      font-size: 45%;
+    }
+  }
+
+
+  @media(max-width:600px){
+    html{
+      font-size: 35%;
+    }
+
+}
+
+@media(max-width:480px){
+  html{
+    font-size: 25%;
+  }
+}  
